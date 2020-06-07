@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { connect } from 'react-redux';
 
 import './Button.css';
-import * as actions from '../store/actions/index.js';
+import * as actions from '../store/actions';
 
 const Button = props => {
     const [isAdded, setIsAdded] = useState(false);
