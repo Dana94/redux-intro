@@ -27,7 +27,7 @@ const Button = props => {
 const mapDispatchToProps = dispatch => {
     return {
         onAddColor: (color) => dispatch(actions.addColor(color)),
-        onRemoveColor: (color) => dispatch(actions.removeColor(color)),
+        onRemoveColor: (color) => dispatch(actions.removeColorDelay(color)),
     }
 }
 

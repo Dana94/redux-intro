@@ -1,1 +1,1 @@
-export {addColor, removeColor} from './colors';
+export {addColor, removeColorDelay} from './colors';
